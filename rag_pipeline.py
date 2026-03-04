@@ -82,7 +82,7 @@ def create_vector_store(chunks):
     index.add(embeddings)
 
     llm = pipeline(
-        "text2text-generation",
+        task="text2text-generation",
         model="google/flan-t5-small"
     )
 
@@ -134,4 +134,5 @@ Provide a short legal explanation in 3 to 4 sentences.
 
 
     return answer
+
 
