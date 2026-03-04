@@ -1,7 +1,6 @@
 import os
 import faiss
 import numpy as np
-import pdfplumber
 import re
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
@@ -132,5 +131,6 @@ Provide a short legal explanation in 3 to 4 sentences.
     result = model(prompt, max_length=180, do_sample=False)
 
     answer = result[0]["generated_text"].strip()
+
 
     return answer
