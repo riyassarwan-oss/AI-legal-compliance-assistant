@@ -1,8 +1,9 @@
 streamlit
 transformers
-sentence-transformers
+sentence-transformers>=4.30
 faiss-cpu
 torch
 numpy
 pandas
 huggingface-hub
+
