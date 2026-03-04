@@ -83,7 +83,7 @@ def create_vector_store(chunks):
 
     llm = pipeline(
         "text2text-generation",
-        model="google/flan-t5-base"
+        model="google/flan-t5-small"
     )
 
     return index, llm, chunks
@@ -134,3 +134,4 @@ Provide a short legal explanation in 3 to 4 sentences.
 
 
     return answer
+
