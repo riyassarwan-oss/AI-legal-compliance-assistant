@@ -1,11 +1,11 @@
 streamlit
-transformers
-sentence-transformers>=4.35
+transformers>=4.35
+sentence-transformers
 faiss-cpu
 torch
 numpy
-pandas
-huggingface-hub
+
+
 
 
 
