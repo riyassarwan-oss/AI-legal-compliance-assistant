@@ -1,1 +1,32 @@
+AI Legal Compliance Assistant
 
+AI-powered legal compliance assistant built using Retrieval-Augmented Generation (RAG).
+The system retrieves relevant sections from labour law documents using semantic search (Sentence Transformers + FAISS) and generates concise summaries using FLAN-T5.
+It provides an interactive interface for querying compliance-related information.
+
+Features;
+Semantic document retrieval using Sentence Transformers
+Vector search using FAISS
+Answer generation using FLAN-T5
+Source attribution from legal documents
+Interactive interface built with Streamlit
+
+Tech Stack;
+Python
+Sentence Transformers
+FAISS
+FLAN-T5
+Streamlit
+HuggingFace Transformers
+
+System Architecture;
+
+User Query
+↓
+Semantic Retrieval (FAISS + Sentence Transformers)
+↓
+Relevant Context Extraction
+↓
+FLAN-T5 Summarization
+↓
+Generated Compliance Answer
